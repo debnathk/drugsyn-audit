@@ -1,0 +1,48 @@
+{
+  "split_file": "results/splits/tissuecv_haematopoietic_and_lymphoid.json",
+  "split_mode": "leave_tissue_out",
+  "target": "loewe",
+  "n_train": 171681,
+  "n_test": 4693,
+  "results": {
+    "B1": {
+      "mse": 276.0235523565158,
+      "rmse": 16.61395655334742,
+      "mae": 11.5800275351763,
+      "pearson": 0.4181828133801775,
+      "pearson_pvalue": 4.357558836612461e-198,
+      "spearman": 0.41370796230446033,
+      "spearman_pvalue": 1.6951462286514963e-193,
+      "n_samples": 4693,
+      "top10pct_enrichment": 0.3070362473347548,
+      "binary_auc": 0.69119568042525,
+      "seconds": 0.2
+    },
+    "B2": {
+      "mse": 288.74166260606273,
+      "rmse": 16.992400142595006,
+      "mae": 11.988677073459225,
+      "pearson": 0.3604546424244338,
+      "pearson_pvalue": 5.445632925697726e-144,
+      "spearman": 0.2891686296665334,
+      "spearman_pvalue": 4.5094225656955304e-91,
+      "n_samples": 4693,
+      "top10pct_enrichment": 0.21321961620469082,
+      "binary_auc": 0.6325893693074315,
+      "seconds": 53.2
+    },
+    "B3": {
+      "mse": 295.2395766886647,
+      "rmse": 17.182536968930542,
+      "mae": 12.034300073356972,
+      "pearson": 0.3494031026330272,
+      "pearson_pvalue": 7.815011058135396e-135,
+      "spearman": 0.3488073532520333,
+      "spearman_pvalue": 2.3778569770842883e-134,
+      "n_samples": 4693,
+      "top10pct_enrichment": 0.2515991471215352,
+      "binary_auc": 0.6626939211263982,
+      "seconds": 15.1
+    }
+  }
+}

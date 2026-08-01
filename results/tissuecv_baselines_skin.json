@@ -1,0 +1,48 @@
+{
+  "split_file": "results/splits/tissuecv_skin.json",
+  "split_mode": "leave_tissue_out",
+  "target": "loewe",
+  "n_train": 83496,
+  "n_test": 71638,
+  "results": {
+    "B1": {
+      "mse": 221.85014088786926,
+      "rmse": 14.894634634252338,
+      "mae": 10.923920866728805,
+      "pearson": 0.3247935640769571,
+      "pearson_pvalue": 0.0,
+      "spearman": 0.21709034746144845,
+      "spearman_pvalue": 0.0,
+      "n_samples": 71638,
+      "top10pct_enrichment": 0.06854669831076364,
+      "binary_auc": 0.5545122897082269,
+      "seconds": 0.2
+    },
+    "B2": {
+      "mse": 233.69719365782947,
+      "rmse": 15.287157801822728,
+      "mae": 11.27096502306025,
+      "pearson": 0.2615816273735949,
+      "pearson_pvalue": 0.0,
+      "spearman": 0.16565739275826027,
+      "spearman_pvalue": 0.0,
+      "n_samples": 71638,
+      "top10pct_enrichment": 0.1442133184419936,
+      "binary_auc": 0.566728165425681,
+      "seconds": 38.0
+    },
+    "B3": {
+      "mse": 305.29131137385883,
+      "rmse": 17.4725874264191,
+      "mae": 12.793717900026975,
+      "pearson": 0.2101510638589344,
+      "pearson_pvalue": 0.0,
+      "spearman": 0.15301732844962357,
+      "spearman_pvalue": 0.0,
+      "n_samples": 71638,
+      "top10pct_enrichment": 0.1227139466703895,
+      "binary_auc": 0.5550244867352119,
+      "seconds": 9.7
+    }
+  }
+}

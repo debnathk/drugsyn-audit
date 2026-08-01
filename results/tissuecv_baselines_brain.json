@@ -1,0 +1,48 @@
+{
+  "split_file": "results/splits/tissuecv_brain.json",
+  "split_mode": "leave_tissue_out",
+  "target": "loewe",
+  "n_train": 104736,
+  "n_test": 4372,
+  "results": {
+    "B1": {
+      "mse": 241.95321430197004,
+      "rmse": 15.554845364129148,
+      "mae": 10.616752532732054,
+      "pearson": 0.48773470425101645,
+      "pearson_pvalue": 4.0533118283927374e-260,
+      "spearman": 0.24344179272739508,
+      "spearman_pvalue": 5.258659538999907e-60,
+      "n_samples": 4372,
+      "top10pct_enrichment": 0.05263157894736842,
+      "binary_auc": 0.556637920995769,
+      "seconds": 0.1
+    },
+    "B2": {
+      "mse": 294.6964811166547,
+      "rmse": 17.16672598711399,
+      "mae": 11.959985511486154,
+      "pearson": 0.35307715049904387,
+      "pearson_pvalue": 1.5331919246726687e-128,
+      "spearman": 0.08980690933283858,
+      "spearman_pvalue": 2.706831539140442e-09,
+      "n_samples": 4372,
+      "top10pct_enrichment": 0.04576659038901602,
+      "binary_auc": 0.4802306123065112,
+      "seconds": 34.3
+    },
+    "B3": {
+      "mse": 254.63700215087232,
+      "rmse": 15.95734947135245,
+      "mae": 10.788738158442625,
+      "pearson": 0.4711714818896811,
+      "pearson_pvalue": 1.5683338697442906e-240,
+      "spearman": 0.3419242355308652,
+      "spearman_pvalue": 3.677092655695417e-120,
+      "n_samples": 4372,
+      "top10pct_enrichment": 0.06178489702517163,
+      "binary_auc": 0.6230230612306512,
+      "seconds": 9.8
+    }
+  }
+}

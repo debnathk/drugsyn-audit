@@ -1,0 +1,48 @@
+{
+  "split_file": "results/splits/tissuecv_lung.json",
+  "split_mode": "leave_tissue_out",
+  "target": "loewe",
+  "n_train": 131490,
+  "n_test": 25612,
+  "results": {
+    "B1": {
+      "mse": 127.64901232343891,
+      "rmse": 11.298186240429873,
+      "mae": 7.402223167577205,
+      "pearson": 0.6681242356977624,
+      "pearson_pvalue": 0.0,
+      "spearman": 0.6037525477074668,
+      "spearman_pvalue": 0.0,
+      "n_samples": 25612,
+      "top10pct_enrichment": 0.3744631003514252,
+      "binary_auc": 0.7493404322663951,
+      "seconds": 0.2
+    },
+    "B2": {
+      "mse": 139.57949249927458,
+      "rmse": 11.814376517585453,
+      "mae": 8.042389110757066,
+      "pearson": 0.626197262535753,
+      "pearson_pvalue": 0.0,
+      "spearman": 0.5144166458338707,
+      "spearman_pvalue": 0.0,
+      "n_samples": 25612,
+      "top10pct_enrichment": 0.2616165560327997,
+      "binary_auc": 0.6987495087984975,
+      "seconds": 44.7
+    },
+    "B3": {
+      "mse": 170.75040764869667,
+      "rmse": 13.06714994360655,
+      "mae": 8.752419054764278,
+      "pearson": 0.5740183738627911,
+      "pearson_pvalue": 0.0,
+      "spearman": 0.5154798564913537,
+      "spearman_pvalue": 0.0,
+      "n_samples": 25612,
+      "top10pct_enrichment": 0.31159703240921516,
+      "binary_auc": 0.7127790370444755,
+      "seconds": 12.6
+    }
+  }
+}

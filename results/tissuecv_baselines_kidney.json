@@ -1,0 +1,48 @@
+{
+  "split_file": "results/splits/tissuecv_kidney.json",
+  "split_mode": "leave_tissue_out",
+  "target": "loewe",
+  "n_train": 164208,
+  "n_test": 11845,
+  "results": {
+    "B1": {
+      "mse": 130.80640014047384,
+      "rmse": 11.437062566081986,
+      "mae": 7.404470865373056,
+      "pearson": 0.6276651827473979,
+      "pearson_pvalue": 0.0,
+      "spearman": 0.5712566832415752,
+      "spearman_pvalue": 0.0,
+      "n_samples": 11845,
+      "top10pct_enrichment": 0.3614864864864865,
+      "binary_auc": 0.7279420230423744,
+      "seconds": 0.2
+    },
+    "B2": {
+      "mse": 137.87036562641813,
+      "rmse": 11.741821222724273,
+      "mae": 7.96853042612708,
+      "pearson": 0.5917839233529398,
+      "pearson_pvalue": 0.0,
+      "spearman": 0.5050878917731418,
+      "spearman_pvalue": 0.0,
+      "n_samples": 11845,
+      "top10pct_enrichment": 0.2947635135135135,
+      "binary_auc": 0.6983469244288225,
+      "seconds": 53.3
+    },
+    "B3": {
+      "mse": 148.18986571570255,
+      "rmse": 12.173325992336792,
+      "mae": 7.921136137299024,
+      "pearson": 0.5819938624949084,
+      "pearson_pvalue": 0.0,
+      "spearman": 0.5199250030470887,
+      "spearman_pvalue": 0.0,
+      "n_samples": 11845,
+      "top10pct_enrichment": 0.32094594594594594,
+      "binary_auc": 0.7125010349541105,
+      "seconds": 14.7
+    }
+  }
+}
