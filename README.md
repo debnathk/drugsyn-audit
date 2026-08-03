@@ -2,8 +2,8 @@
 
 Code, split definitions and manuscript for:
 
-> **Held-Out Cell Lines Are Not Held-Out Combinations: Auditing Evaluation
-> Protocols for Drug Combination Synergy Prediction**
+> **Combination Overlap in Drug Synergy Benchmarks:
+> An Audit of Cell-Line Holdout Protocols**
 > K. Debnath, P. Ghosh — Pacific Symposium on Biocomputing 2027 (submitted)
 
 Combination screens assay a fixed panel of drug pairs across a fixed panel of
