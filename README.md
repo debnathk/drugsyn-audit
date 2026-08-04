@@ -39,7 +39,6 @@ no new data — it is a property of the partition.
 | `src/baselines.py` | Null models, including **B1** (per-cell + per-pair mean) |
 | `splits/` | Split definitions as row indices, gzipped, with corpus fingerprints |
 | `results/` | Per-seed metrics backing every table in the paper |
-| `manuscript/` | LaTeX source, figures and compiled PDF |
 
 ## Reproducing
 
